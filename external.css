@@ -7,7 +7,7 @@ body {
     background-image: url("header.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    margin: 20px;
+    margin: 25px;
 }
 
 h1.prabha {
@@ -24,13 +24,16 @@ footer a {
 div.title{
     background-color: #BFD8D2;
     padding: 25px;
-    margin: 30px;
+    margin: 25px;
 }
 
 div.content {
     background-color:  #fedcd2;
     padding: 25px;
-    margin: 30px;
+    margin: 25px;
+    border: 5px white;
+    border-radius: 10px;
+
 }
 
 
