@@ -1,0 +1,62 @@
+h1 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url("header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 20px;
+}
+
+h1.prabha {
+    background-color: #FEA680;
+    text-align: center;
+    padding: 25px;
+    color: white;
+}
+footer a {
+    bottom: 0;
+    color: white;
+}
+
+div.title{
+    background-color: #BFD8D2;
+    padding: 25px;
+    margin: 30px;
+}
+
+div.content {
+    background-color:  #fedcd2;
+    padding: 25px;
+    margin: 30px;
+}
+
+
+
+/*Menu Styling */
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    height: 50px;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background-color: #111;
+}
