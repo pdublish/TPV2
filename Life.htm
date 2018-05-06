@@ -16,7 +16,15 @@
         }
 
         </style>
-        
+        <script type="text/javascript">
+            function changeText(){
+                document.getElementById("text").innerHTML= "Or Maybe These Are Just Weird Facts?";
+            }
+            function changeBorder(){
+                document.getElementById("border").style.border = "thick solid #89cff0";
+
+            }
+        </script>
     </head>
 
     <body>
@@ -30,8 +38,8 @@
                         <li><a href="SiteMap.htm">Site Map</a></li></ul></div>
             <h1 class="prabha">Prabha Dublish</h1>
         <img src="PrabhaDerek.jpg" alt="Profile Pic" title="Prabha and Derek" height="350"/>
-        <div class="content">
-        <h2>10 Fun Facts about Me</h2>
+        <div class="content" id="border" onmouseover="changeBorder()">
+        <h2 id="text" onclick="changeText()">10 Fun Facts about Me</h2>
         <ul>
             <li>Born in India without a right pulmonary artery</li>
             <li>I have an older sister who is definitely a genius</li>
